@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Vazirmatn", Tahoma, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.courses {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.courses-title {
+  font-size: 26px;
+  color: #3b4fd8;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+/* کارت ها کنار هم، در موبایل اسکرول افقی */
+.cards {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.card {
+  flex: 1 0 300px;
+  scroll-snap-align: start;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 6px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #e0b93a, #f6e27a, #d9a91c);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-top {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-top img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e53030;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 0 0 6px 0;
+}
+
+.medal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #e0b93a;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0 0 0 6px;
+}
+
+.card-body {
+  background: #fff;
+  margin-top: 6px;
+  padding: 16px 14px;
+  border-radius: 6px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body h3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.teacher {
+  font-size: 13px;
+  color: #888;
+  margin-top: 14px;
+}
+
+@media (max-width: 600px) {
+  .courses-title {
+    font-size: 20px;
+  }
+  .card {
+    flex-basis: 80%;
+  }
+}
