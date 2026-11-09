@@ -1,4 +1,5 @@
-﻿# Internet_practice
- live pages
-https://USERNAME.github.io/REPO/firstpractice/
-https://USERNAME.github.io/REPO/secondpractice/
+ live pages :
+ <hr>
+https://say-alireza.github.io/REPO/firstpractice/
+<hr>
+https://say-alireza.github.io/REPO/secondpractice/
