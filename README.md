@@ -1,5 +1,5 @@
  live pages :
  <hr>
-https://say-alireza.github.io/REPO/firstpractice/
+https://say-alireza.github.io/Internet_practice/firstpractice/
 <hr>
-https://say-alireza.github.io/REPO/secondpractice/
+https://say-alireza.github.io/Internet_practice/secondpractice/
